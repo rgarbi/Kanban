@@ -31,6 +31,25 @@ To switch states of cards, just click on the card header and drag it to the colu
 
 You can still go into the user story/defect detail page by clicking on the user story/defect ID on the top left of the card.
 
+# Using The SLA Features
+If you want to set an SLA based on you cycle times simply open the settings and enable the functionality by checking the check box and specifying the number of days you would like the SLA to run for. You must also specify the state at which a card will begin its SLA and the state at which the SLA stops.
+
+![SlaSetup](https://raw.github.com/rgarbi/Kanban/master/screenshots/SLAConfig.png)
+
+### SLA Notification
+When a card is not near or past its SLA it will show the team when the SLA will be broken.
+
+![NormalDue](https://raw.github.com/rgarbi/Kanban/master/screenshots/Normal.png)
+
+When a card has reached its Due Date an appropriate message will notify the team they ought to take action.
+
+![DueToday](https://raw.github.com/rgarbi/Kanban/master/screenshots/DueToday.png)
+
+When a card has past its SLA the following message will be shown.
+
+![SlaSetup](https://raw.github.com/rgarbi/Kanban/master/screenshots/PastDue.png)
+
+
 ## Customize this App
 
 You're free to customize this app to your liking (see the License section for details). If you need to add any new Javascript or CSS files, make sure to update config.json so it will be included the next time you build the app.
