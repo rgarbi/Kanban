@@ -152,7 +152,7 @@ KanbanConfigPanel = function(rallyDataSource, onConfigHide) {
 
         var checkbox = new rally.sdk.ui.basic.Checkbox({
             rememberChecked:false,
-            checked:true
+            checked:false
         });
 
         that._addControlToRow(row, stringValue + "-checkBox-" + rows.length, checkbox, "configCheckBox");
